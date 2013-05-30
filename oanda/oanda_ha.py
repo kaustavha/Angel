@@ -76,5 +76,5 @@ def pickr():
 def main():
   pickr()
 
-if __name__ == "__main__"
+if __name__ == "__main__":
     main()

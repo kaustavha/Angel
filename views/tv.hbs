@@ -1,0 +1,35 @@
+<script src="/tv.js">
+</script>
+
+<script>
+setup_sockets('{{tv_id}}');
+</script>
+
+<style>
+iframe, .myframe, video{
+  position:fixed;
+  width: 100%;
+  height: 100%;
+  frameborder: '0';
+  allowfullscreen;
+  padding: 0px;
+  margin: 0px;
+}
+
+.img{
+  width: 100%;
+  height: 100%;
+}
+#content{
+  position:fixed;
+  width: 100%;
+  height: 100%; 
+}
+body {
+  background: black;
+  text-color: white;
+  margin: 0px;
+  padding: 0px;
+}
+</style>
+<div id="content"></div>
